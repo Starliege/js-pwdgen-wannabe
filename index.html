@@ -15,7 +15,7 @@
     const colore = prompt('Qual è il tuo colore preferito?');
     const password = nome + cognome + colore
 
-    document.getElementById("pass").innerHTML = password + "21";
+    document.getElementById("pass").innerHTML = password + Math.floor(Math.random () * 100) + 1;
 </script>
 </body>
 </html>

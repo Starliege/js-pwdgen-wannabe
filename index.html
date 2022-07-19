@@ -7,6 +7,15 @@
     <title>pasgen</title>
 </head>
 <body>
-    
+    <h1>La tua password è <span id="pass" style="color: #e62929;"></span></h1>
+
+  <script type="text/javascript">
+    const nome = prompt('Qual è il tuo nome?');
+    const cognome = prompt('Qual è il tuo cognome?');
+    const colore = prompt('Qual è il tuo colore preferito?');
+    const password = nome + cognome + colore
+
+    document.getElementById("pass").innerHTML = password + "21";
+</script>
 </body>
 </html>
